@@ -1,0 +1,82 @@
+body{background-color:#CFF; }
+#content{width:800px;
+         height:500px;
+         paddind:20px 0 0 0;
+         margin:0 auto;
+         background-color:#ccc; }
+#table{background-color: #FFF;
+        width:780px;
+         height:480px;
+         paddind:20px 0 0 0;
+         margin:0 auto;
+
+}
+.dataTable {width:700px;
+  display: inline;
+ 
+  margin:0;
+}
+
+.dataTable thead, .dataTable tbody, .dataTable thead tr, .dataTable th {
+  display: inline;
+}
+
+.dataTable thead {
+  float: left;
+}
+
+.dataTable tbody {
+  width: auto;
+  position: relative;
+  overflow-x: auto;
+}
+
+.dataTable td, .dataTable th {
+  padding: .625em;
+  line-height: 1.5em;
+  border-bottom: 1px dashed #;
+  box-sizing: border-box;
+}
+
+.dataTable th {
+  text-align:center;
+  background: rgba(0, 0, 0, 0.14);
+  border-bottom: 1px dashed #aaa;
+}
+
+.dataTable tbody tr {
+  display: table-cell;
+}
+
+.dataTable tbody td {
+  display: inline;
+}
+
+.dataTable tr:2nd-child(odd) {
+	background-color:#CFC;
+}
+
+ {
+
+  .dataTable {
+    display: table;
+  }
+  
+  .dataTable thead {display: table-header-group;
+                    float: none;}
+  
+  .dataTable tbody {
+    display: table-row-group;
+  }
+  
+  .dataTable thead tr, .dataTable tbody tr {
+    display: table-row;
+  }
+  
+  .dataTable th, .dataTable tbody td {
+    display: table-cell;
+  }
+  
+  
+  
+}

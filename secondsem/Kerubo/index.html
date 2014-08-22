@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FONT AWESOME Yahoooooo</title>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+<link href="assets/Fonts/font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div id="wrapper">
+<!--start wrapper-->
+<div id="header">
+<!--start header-->
+<div id="logo"></div>
+<div id="head">
+
+
+</div>
+</div>
+<!--end header-->
+<!--start body-->
+<div id="body">
+
+
+
+
+<form>
+  <h1>Payment form</h1>
+  <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+ 
+  <section>
+    <h2>Contact information</h2>
+    
+    <fieldset>
+      <legend>Title</legend>
+      <ul>
+        <li>
+          <label for="title_1">
+            <input type="radio" id="title_1" name="title" value="M." />
+            Mister
+          </label>
+        </li>
+        <li>
+          <label for="title_2">
+            <input type="radio" id="title_2" name="title" value="Ms." />
+            Miss
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+    
+    <p>
+      <label for="name">
+        <span>Name: </span>
+        <input type="text" id="name" name="username" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    
+     <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <input type="email" id="mail" name="usermail" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+  </section>
+ <BR><br><br>
+  <section>
+    <h2>Payment information</h2>
+    
+    <p>
+      <label for="card">
+        <span>Card type:</span>
+        <select id="card" name="usercard">
+          <option value="visa">Visa</option>
+          <option value="mc">Mastercard</option>
+          <option value="amex">American Express</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <label for="number">
+        <span>Card number:</span>
+        <input type="text" id="number" name="cardnumber" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    <p>
+      <label for="date">
+        <span>Expiration date:</span>
+        <input type="text" id="date" name="expiration" required />
+        <strong><abbr title="required">*</abbr></strong>
+        <em>formated as mm/yy</em>
+      </label>
+    </p>
+  </section>
+ <br><br><br>
+  <section>
+    <p>
+      <button>Validate the payment</button>
+    </p>
+  </section>
+<br><br><br>
+    <P>
+    <LABEL for="firstname">First name: </LABEL>
+              <INPUT type="text" id="firstname"><BR>
+    <LABEL for="lastname">Last name: </LABEL>
+              <INPUT type="text" id="lastname"><BR>
+    <LABEL for="email">email: </LABEL>
+              <INPUT type="text" id="email"><BR>
+    <INPUT type="radio" name="sex" value="Male"> Male<BR>
+    <INPUT type="radio" name="sex" value="Female"> Female<BR>
+    <INPUT type="submit" value="Send"> <INPUT type="reset">
+    </P>
+ </FORM>
+<br><br><br>
+
+	<form>
+  <fieldset>
+    <legend>Fruit juice size</legend>
+    <p>
+      <input type="radio" name="size" id="size_1" value="small" />
+      <label for="size_1">Small</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium" />
+      <label for="size_2">Medium</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_3" value="large" />
+      <label for="size_3">Large</label>
+    </p>
+  </fieldset>
+</form><br><br><br>
+<form>
+  <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+ 
+  <p>
+    <label for="name">
+      <span>Name: </span>
+      <input type="text" id="name" name="username" required />
+      <strong><abbr title="required">*</abbr></strong>
+    </label>
+  </p>
+ 
+  <p>
+    <label for="birth">
+      <span>Date of birth: </span>
+      <input type="text" id="birth" name="userbirth" maxlength="10" /> <em>formated as mm/dd/yyyy</em>
+    </label>
+  </p>
+</form>
+
+<br><br><br>
+
+<FORM action="..." method="post">
+ <P>
+ <FIELDSET>
+  <LEGEND>Personal Information</LEGEND>
+  Last Name: <INPUT name="personal_lastname" type="text" tabindex="1">
+  First Name: <INPUT name="personal_firstname" type="text" tabindex="2">
+  Address: <INPUT name="personal_address" type="text" tabindex="3">
+  ...more personal information...
+ </FIELDSET>
+ <FIELDSET>
+  <LEGEND>Medical History</LEGEND>
+  <INPUT name="history_illness" 
+         type="checkbox" 
+         value="Smallpox" tabindex="20"> Smallpox
+  <INPUT name="history_illness" 
+         type="checkbox" 
+         value="Mumps" tabindex="21"> Mumps
+  <INPUT name="history_illness" 
+         type="checkbox" 
+         value="Dizziness" tabindex="22"> Dizziness
+  <INPUT name="history_illness" 
+         type="checkbox" 
+         value="Sneezing" tabindex="23"> Sneezing
+  ...more medical history...
+ </FIELDSET>
+ <FIELDSET>
+  <LEGEND>Current Medication</LEGEND>
+  Are you currently taking any medication? 
+  <INPUT name="medication_now" 
+         type="radio" 
+         value="Yes" tabindex="35">Yes
+  <INPUT name="medication_now" 
+         type="radio" 
+         value="No" tabindex="35">No
+
+  If you are currently taking medication, please indicate
+  it in the space below:
+  <TEXTAREA name="current_medication" 
+            rows="20" cols="50"
+            tabindex="40">
+  </TEXTAREA>
+ </FIELDSET>
+</FORM>
+<br><br><br>
+<form>
+  <p>
+    <label for="myFruit">Pick a fruit</label>
+    <select id="myFruit" name="fruit">
+      <!-- There is a trick here you think you'll pick
+         a banana but you'll eat an orange >:-) -->
+      <option value="orange">Banana</option>
+      <option>Cherry</option>
+      <optgroup label="berries">
+        <option>Blueberry</option>
+        <option>Raspberry</option>
+        <option>Strawberry</option>
+      </optgroup>
+    </select>
+  </p>
+</form>
+<br><br><br>
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+</div><!--end body-->
+
+</div>
+
+<!--end wrapper-->
+</body>
+</html>

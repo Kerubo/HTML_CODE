@@ -1,0 +1,42 @@
+body{background-color:#CCC;}
+
+
+#wrapper{width:920px;height:1000px;background-color:#000000;
+        padding:0 auto;margin:auto;border-width:05px;border-type:solid;border-color:#000;}
+
+#content{width:900px;height:890px;background-color:#FFF;
+        padding:0 auto;margin:10px;}
+
+li a{text-decoration:none;}
+li{display:inline;margin:40px;}
+#a{width:900px;height:100px;
+        padding:0 auto;}
+
+
+
+
+#b{width:900px;height:100px;
+        padding:0 auto;}
+
+h2{text-align:center;font-color:#FFD700;}
+
+#c{width:900px;height:240px;background-color:#F0E68C;
+        padding:0 auto;bordet-width:2px;border-color:#C09;}
+
+#d{width:900px;height:440px;
+        padding:0 auto;margin-top:10px;}
+
+#t{width:600px;height:440px;
+        padding:0 auto;margin-top:10px;float:left;
+        border-left:20px;border-type:solid;}
+
+#r{width:300px;height:440px;
+        padding:0 auto;margin-top:10px;float:left;}
+
+img{width:900px;height:240px;border-color:#CFF;}
+
+#e{width:900px;;
+        padding:0 auto;margin-top:10px;background-color:#808080;}
+
+p{font-size:i6px;font-family:times new roman;text-align:center;}
+h1{text-align:center;}

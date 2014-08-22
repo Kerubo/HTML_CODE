@@ -1,0 +1,17 @@
+element {
+}
+body, button, input, select, textarea {
+    color: #444;
+    font-family: "tablet-gothic-condensed",Helvetica,sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-family: "tablet-gothic-condensed",sans-serif;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: 300;
+}
+html {
+    font-size: 62.5%;
+}

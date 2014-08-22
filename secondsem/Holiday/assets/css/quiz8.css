@@ -1,0 +1,2416 @@
+html {
+    height: 100%;
+}
+body {
+    color: #777;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 100%;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    margin: 0 0 1em;
+    padding: 0;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    margin: 0 0 0.8em;
+}
+h2 {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    margin: 0 0 0.8em;
+}
+h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+h4 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+h5 {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+h6 {
+    font-size: 1em;
+    line-height: 1.2em;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    padding: 0 0 1em;
+}
+a {
+    color: #333;
+}
+a.btn, a.btn:visited {
+    background-color: #4bb2ec;
+    background-image: -moz-linear-gradient(center top , #4bb2ec, #168cce);
+    border: 1px solid #06507b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    line-height: 3em;
+    margin: 0 1em 0 0;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+a.btn:hover {
+    background: none repeat scroll 0 0 #168cce;
+}
+a.btn-secondary {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #fff !important;
+}
+a.btn-secondary:hover {
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+img {
+    border: 0 none;
+}
+.glyph-item {
+    color: #222;
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1;
+    width: 1.5em;
+}
+.mega {
+    font-size: 3.2em;
+}
+.container {
+    margin: 0 auto;
+    max-width: 81.25em;
+    min-width: 50em;
+}
+.inner {
+    margin: 0 2em 2em 0;
+}
+#wrapper {
+    background: none repeat fixed center top / 100% 100% #333;
+    color: #fff;
+    height: 100%;
+}
+.wrapper-flexi {
+    height: auto !important;
+}
+.wrapper-page {
+    height: auto !important;
+}
+.wrapper-page .hero {
+    padding: 1em 0 0.5em 1em;
+}
+.wrapper-page .hero h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.wrapper-page .hero h2 {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1.2em;
+    margin: 0.5em 0 0;
+    padding: 0;
+    text-align: left;
+}
+.row {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    float: left;
+}
+.span12 {
+    width: 100%;
+}
+.span11 {
+    width: 91.6667%;
+}
+.span10 {
+    width: 83.3333%;
+}
+.span9 {
+    width: 75%;
+}
+.span8 {
+    width: 66.6667%;
+}
+.span7 {
+    width: 58.3333%;
+}
+.span6 {
+    width: 50%;
+}
+.span5 {
+    width: 41.6667%;
+}
+.span4 {
+    width: 33.3333%;
+}
+.span3 {
+    width: 25%;
+}
+.span2 {
+    width: 16.6667%;
+}
+.span1 {
+    width: 8.33333%;
+}
+.clearfix {
+    clear: both;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+#content .inner {
+    padding: 2em 2em 1em 0;
+}
+.item-box {
+    float: left;
+    width: 45%;
+}
+.strip {
+    border-bottom: 1px solid #dce2e5;
+    padding-left: 1em;
+}
+.strip-alt {
+    background: none repeat scroll 0 0 #f6f8f9;
+}
+.strip .inner {
+    padding: 4em 2em 1em 0;
+}
+.highlight h2 {
+    font-size: 2.2em;
+}
+.highlight h4 {
+    color: #777;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+.highlight .inner-text {
+    padding: 8em 0 4em;
+}
+img.promoimg {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+}
+.features .inner {
+    text-align: center;
+}
+.features .inner .glyph-item {
+    font-size: 3em;
+}
+form {
+}
+form a {
+    text-decoration: none;
+}
+form a:hover {
+    text-decoration: underline;
+}
+.form-row {
+    margin-bottom: 1em;
+}
+.form-row input.text, .form-row textarea {
+    background: url("../images/form_background.png") repeat-x scroll left top #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #666;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 1em 4%;
+    width: 92%;
+}
+.form-row select {
+    font-size: 1em;
+    width: 100%;
+}
+.form-row input.btn {
+    background-color: #4bb2ec;
+    background-image: -moz-linear-gradient(center top , #4bb2ec, #168cce);
+    border: 1px solid #06507b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+}
+.form-row input.btn:hover, .form-row input.btn:focus {
+    background: none repeat scroll 0 0 #168cce;
+}
+.form-row label {
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 3em;
+}
+.form-row label .glyph-item {
+    margin: 0 0 0 0.5em;
+}
+.form-row .btn-extrawide {
+    margin-right: 1em;
+}
+.form-row .btn-extrawide {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.form-row .inner {
+    margin: 0 1em 0 0;
+    text-align: right;
+}
+#header {
+    padding: 1.2em 0 1.5em 1em;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+#header h1 {
+    float: left;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+#header h1 a {
+    color: #fff;
+}
+#menu {
+    display: inline;
+    float: right;
+    margin-right: 0.5em;
+}
+#menu ul {
+    list-style: none outside none;
+    margin: 0.7em 1em 0 0;
+    padding: 0;
+}
+#menu ul li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+}
+#menu ul li a {
+    font-size: 0.9em;
+    text-decoration: none;
+}
+#menu ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0.5em 1em;
+}
+#menu ul li a:hover {
+    color: #fff;
+}
+#menu ul li.current a {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+#menu ul li.current a:hover {
+    border-color: #fff;
+}
+h2.menulink {
+    display: none;
+}
+.hero {
+    display: none;
+    padding: 1em 3em 0;
+    text-align: center;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+.hero-narrrow {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.hero h1 {
+    font-size: 2.7em;
+    font-weight: 300;
+    margin: 0 0 0.5em;
+}
+.hero h2 {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero h1 a, .hero h2 a, .hero h3 a, .hero h4 a, .hero h5 a, .hero h6 a {
+    color: #fff;
+}
+.icons {
+    margin-top: 1em;
+    text-align: center;
+}
+.icons a .glyph-item {
+    color: #fff;
+    font-size: 2em;
+}
+.icons a:hover .glyph-item {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 2em;
+}
+.icons .glyph-item {
+    color: #fff;
+}
+.intro {
+    color: #fff;
+    margin: 4em 0 2em;
+    padding: 0;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+.intro h1 {
+    color: #fff;
+}
+.intro h1 span {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 0 0.3em 0.15em;
+}
+.intro h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+.intro-padded {
+}
+.featured img {
+    margin-bottom: -6px;
+}
+.subscribe {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    margin: 2em 0 4em;
+    padding: 1em;
+    text-align: center;
+}
+/*about*/
+
+html {
+    height: 100%;
+}
+body {
+    color: #777;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 100%;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    margin: 0 0 1em;
+    padding: 0;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    margin: 0 0 0.8em;
+}
+h2 {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    margin: 0 0 0.8em;
+}
+h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+h4 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+h5 {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+h6 {
+    font-size: 1em;
+    line-height: 1.2em;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    padding: 0 0 1em;
+}
+a {
+    color: #333;
+}
+a.btn, a.btn:visited {
+    background-color: #4bb2ec;
+    background-image: -moz-linear-gradient(center top , #4bb2ec, #168cce);
+    border: 1px solid #06507b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    line-height: 3em;
+    margin: 0 1em 0 0;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+a.btn:hover {
+    background: none repeat scroll 0 0 #168cce;
+}
+a.btn-secondary {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #fff !important;
+}
+a.btn-secondary:hover {
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+img {
+    border: 0 none;
+}
+.glyph-item {
+    color: #222;
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1;
+    width: 1.5em;
+}
+.mega {
+    font-size: 3.2em;
+}
+.container {
+    margin: 0 auto;
+    max-width: 81.25em;
+    min-width: 50em;
+}
+.inner {
+    margin: 0 2em 2em 0;
+}
+#wrapper {
+    background: none repeat fixed center top / 100% 100% #333;
+    color: #fff;
+    height: 100%;
+}
+.wrapper-flexi {
+    height: auto !important;
+}
+.wrapper-page {
+    height: auto !important;
+}
+.wrapper-page .hero {
+    padding: 1em 0 0.5em 1em;
+}
+.wrapper-page .hero h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.wrapper-page .hero h2 {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1.2em;
+    margin: 0.5em 0 0;
+    padding: 0;
+    text-align: left;
+}
+.row {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    float: left;
+}
+.span12 {
+    width: 100%;
+}
+.span11 {
+    width: 91.6667%;
+}
+.span10 {
+    width: 83.3333%;
+}
+.span9 {
+    width: 75%;
+}
+.span8 {
+    width: 66.6667%;
+}
+.span7 {
+    width: 58.3333%;
+}
+.span6 {
+    width: 50%;
+}
+.span5 {
+    width: 41.6667%;
+}
+.span4 {
+    width: 33.3333%;
+}
+.span3 {
+    width: 25%;
+}
+.span2 {
+    width: 16.6667%;
+}
+.span1 {
+    width: 8.33333%;
+}
+.clearfix {
+    clear: both;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+#content .inner {
+    padding: 2em 2em 1em 0;
+}
+.item-box {
+    float: left;
+    width: 45%;
+}
+.strip {
+    border-bottom: 1px solid #dce2e5;
+    padding-left: 1em;
+}
+.strip-alt {
+    background: none repeat scroll 0 0 #f6f8f9;
+}
+.strip .inner {
+    padding: 4em 2em 1em 0;
+}
+.highlight h2 {
+    font-size: 2.2em;
+}
+.highlight h4 {
+    color: #777;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+.highlight .inner-text {
+    padding: 8em 0 4em;
+}
+img.promoimg {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+}
+.features .inner {
+    text-align: center;
+}
+.features .inner .glyph-item {
+    font-size: 3em;
+}
+form {
+}
+form a {
+    text-decoration: none;
+}
+form a:hover {
+    text-decoration: underline;
+}
+.form-row {
+    margin-bottom: 1em;
+}
+.form-row input.text, .form-row textarea {
+    background: url("../images/form_background.png") repeat-x scroll left top #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #666;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 1em 4%;
+    width: 92%;
+}
+.form-row select {
+    font-size: 1em;
+    width: 100%;
+}
+.form-row input.btn {
+    background-color: #4bb2ec;
+    background-image: -moz-linear-gradient(center top , #4bb2ec, #168cce);
+    border: 1px solid #06507b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+}
+.form-row input.btn:hover, .form-row input.btn:focus {
+    background: none repeat scroll 0 0 #168cce;
+}
+.form-row label {
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 3em;
+}
+.form-row label .glyph-item {
+    margin: 0 0 0 0.5em;
+}
+.form-row .btn-extrawide {
+    margin-right: 1em;
+}
+.form-row .btn-extrawide {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.form-row .inner {
+    margin: 0 1em 0 0;
+    text-align: right;
+}
+#header {
+    padding: 1.2em 0 1.5em 1em;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+#header h1 {
+    float: left;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+#header h1 a {
+    color: #fff;
+}
+#menu {
+    display: inline;
+    float: right;
+    margin-right: 0.5em;
+}
+#menu ul {
+    list-style: none outside none;
+    margin: 0.7em 1em 0 0;
+    padding: 0;
+}
+#menu ul li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+}
+#menu ul li a {
+    font-size: 0.9em;
+    text-decoration: none;
+}
+#menu ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0.5em 1em;
+}
+#menu ul li a:hover {
+    color: #fff;
+}
+#menu ul li.current a {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+#menu ul li.current a:hover {
+    border-color: #fff;
+}
+h2.menulink {
+    display: none;
+}
+.hero {
+    display: none;
+    padding: 1em 3em 0;
+    text-align: center;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+.hero-narrrow {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.hero h1 {
+    font-size: 2.7em;
+    font-weight: 300;
+    margin: 0 0 0.5em;
+}
+.hero h2 {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero h1 a, .hero h2 a, .hero h3 a, .hero h4 a, .hero h5 a, .hero h6 a {
+    color: #fff;
+}
+.icons {
+    margin-top: 1em;
+    text-align: center;
+}
+.icons a .glyph-item {
+    color: #fff;
+    font-size: 2em;
+}
+.icons a:hover .glyph-item {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 2em;
+}
+.icons .glyph-item {
+    color: #fff;
+}
+.intro {
+    color: #fff;
+    margin: 4em 0 2em;
+    padding: 0;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+.intro h1 {
+    color: #fff;
+}
+.intro h1 span {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 0 0.3em 0.15em;
+}
+.intro h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+.intro-padded {
+}
+.featured img {
+    margin-bottom: -6px;
+}
+.subscribe {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    margin: 2em 0 4em;
+    padding: 1em;
+    text-align: center;
+}
+.subscribe .form-row {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
+.subscribe .form-row input.text {
+    border: 0 none;
+    float: left;
+    margin: 0;
+    padding: 1em 5%;
+    width: 50%;
+}
+.subscribe .form-row .btn {
+    border: 0 none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    float: right;
+    margin: 0;
+    padding: 1.1em 5%;
+    width: 40%;
+}
+.form-box {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    color: #666;
+    display: none;
+    margin: 2em 0 0;
+    padding: 0;
+}
+.form-box .top {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    padding: 1.5em;
+}
+.form-box .top h1 {
+    color: #222;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.form-box .top h1 span {
+    font-weight: 400;
+}
+.form-box .top h2 {
+    color: #222;
+    font-weight: 400;
+    margin: 0 0 0.2em;
+    padding: 0;
+}
+.form-box .top h3 {
+    margin: 0;
+    padding: 0;
+}
+.form-box .top p {
+    margin: 0;
+    padding: 0;
+}
+.form-box .bottom {
+    background: none repeat scroll 0 0 #efefef;
+    padding: 1.5em;
+}
+.shadow {
+    background: url("../images/shadow.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    display: none;
+    height: 20px;
+}
+#footer {
+    color: #999;
+    padding: 3.5em 0 3em;
+    text-align: center;
+}
+#footer a .glyph-item {
+    color: #999;
+    font-size: 2em;
+}
+#footer a:hover .glyph-item {
+    color: #222;
+}
+.pricing {
+    text-align: center;
+}
+.pricing .blocks {
+    padding: 4em 4em 1em 6em;
+}
+.pricing .blocks .inner {
+    padding: 0;
+}
+.pricing .blocks .inner ul, .pricing .blocks .inner ul li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.pricing .blocks .inner ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #dce2e5 #dce2e5 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin-bottom: 1em;
+}
+.pricing .blocks .inner ul li {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    padding: 0.8em 0;
+}
+.pricing .blocks .inner ul li h2 {
+    margin: 0;
+    padding: 0;
+}
+.pricing .blocks .inner.primary ul li h2 {
+    font-weight: 400;
+    padding: 1em 0;
+}
+.pricing .blocks .inner.secondary {
+    margin-top: 2em;
+}
+.pricing .blocks .inner ul li.price {
+    background: none repeat scroll 0 0 #333;
+}
+.pricing .blocks .inner ul li h1 {
+    line-height: 1em;
+    margin: 0.2em 0 0;
+    padding: 0;
+}
+.pricing .blocks .inner ul li h1 span {
+    color: #fff;
+    font-size: 0.8em;
+}
+.pricing .blocks .inner ul li h1 strong {
+    color: #fff;
+    font-weight: 400;
+}
+.pricing .blocks .inner ul li h1 small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.4em;
+}
+.pricing .blocks .inner a.btn {
+    line-height: 5em;
+}
+#sidebar {
+    margin-top: 1em;
+}
+#sidebar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar ul li {
+    border-bottom: 1px solid #dce2e5;
+    list-style: none outside none;
+    margin: 0 0 2em;
+    padding: 0 0 1em;
+}
+#sidebar ul li h3 {
+    margin: 0 0 0.8em;
+}
+@media screen and (max-width: 50em) {
+body {
+}
+.container {
+    max-width: 100%;
+    min-width: 100%;
+}
+#header {
+    padding: 1em;
+}
+#header h1 {
+    margin-left: 0.2em;
+}
+#menu {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    left: 1em;
+    position: absolute;
+    right: 3.8em;
+    text-shadow: none;
+    top: 0;
+}
+#menu ul {
+    margin: 0;
+}
+#menu li {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+#menu li a {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    clear: both;
+    color: #333 !important;
+    display: block;
+    float: none;
+    padding: 1em !important;
+}
+#menu ul li.current a {
+    background: none repeat scroll 0 0 #fff !important;
+    border: 0 none;
+    border-radius: 0;
+    clear: both;
+    color: #333 !important;
+    float: none;
+    padding: 1em !important;
+}
+h2.menulink {
+    border: 0 none;
+    display: inline;
+    float: right;
+    height: 30px;
+    margin: 0;
+    width: 30px;
+}
+h2.menulink a {
+    background: url("../images/menu_btn_background.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000px;
+    width: 30px;
+}
+.hero {
+    margin: 0 0 2em;
+    padding: 4em 1em;
+}
+.form-box {
+    margin: 0 1em;
+}
+.shadow {
+    display: none;
+}
+.strip {
+}
+.strip .inner {
+    padding: 1em;
+}
+.pricing .blocks {
+    padding: 1em;
+}
+.form-row label {
+    line-height: 1em;
+}
+.form-row label .glyph-item {
+    display: none;
+}
+.form-row .inner {
+    margin: 0;
+    text-align: left;
+}
+.intro {
+    padding: 1em;
+}
+.intro h1 {
+    font-size: 2em;
+}
+.intro h2 {
+    font-size: 1.2em;
+}
+#wrapper {
+    height: auto !important;
+}
+.padded {
+    padding: 1.5em;
+}
+.features {
+    padding-top: 3em;
+}
+}
+@media screen and (max-width: 45em) {
+body {
+}
+.container {
+    max-width: 100%;
+    min-width: 100%;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    width: 100%;
+}
+.inner {
+    margin: 0 0 1em;
+}
+#container_main {
+    margin: 0;
+}
+#container_sidebar {
+    clear: both;
+    float: none;
+    width: 100%;
+}
+#wrapper {
+}
+#header {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+}
+@media screen and (min-width: 50em) {
+#menu {
+    display: block !important;
+}
+}
+
+.subscribe .form-row {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
+.subscribe .form-row input.text {
+    border: 0 none;
+    float: left;
+    margin: 0;
+    padding: 1em 5%;
+    width: 50%;
+}
+.subscribe .form-row .btn {
+    border: 0 none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    float: right;
+    margin: 0;
+    padding: 1.1em 5%;
+    width: 40%;
+}
+.form-box {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    color: #666;
+    display: none;
+    margin: 2em 0 0;
+    padding: 0;
+}
+.form-box .top {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    padding: 1.5em;
+}
+.form-box .top h1 {
+    color: #222;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.form-box .top h1 span {
+    font-weight: 400;
+}
+.form-box .top h2 {
+    color: #222;
+    font-weight: 400;
+    margin: 0 0 0.2em;
+    padding: 0;
+}
+.form-box .top h3 {
+    margin: 0;
+    padding: 0;
+}
+.form-box .top p {
+    margin: 0;
+    padding: 0;
+}
+.form-box .bottom {
+    background: none repeat scroll 0 0 #efefef;
+    padding: 1.5em;
+}
+.shadow {
+    background: url("../images/shadow.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    display: none;
+    height: 20px;
+}
+#footer {
+    color: #999;
+    padding: 3.5em 0 3em;
+    text-align: center;
+}
+#footer a .glyph-item {
+    color: #999;
+    font-size: 2em;
+}
+#footer a:hover .glyph-item {
+    color: #222;
+}
+.pricing {
+    text-align: center;
+}
+.pricing .blocks {
+    padding: 4em 4em 1em 6em;
+}
+.pricing .blocks .inner {
+    padding: 0;
+}
+.pricing .blocks .inner ul, .pricing .blocks .inner ul li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.pricing .blocks .inner ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #dce2e5 #dce2e5 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin-bottom: 1em;
+}
+.pricing .blocks .inner ul li {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    padding: 0.8em 0;
+}
+.pricing .blocks .inner ul li h2 {
+    margin: 0;
+    padding: 0;
+}
+.pricing .blocks .inner.primary ul li h2 {
+    font-weight: 400;
+    padding: 1em 0;
+}
+.pricing .blocks .inner.secondary {
+    margin-top: 2em;
+}
+.pricing .blocks .inner ul li.price {
+    background: none repeat scroll 0 0 #333;
+}
+.pricing .blocks .inner ul li h1 {
+    line-height: 1em;
+    margin: 0.2em 0 0;
+    padding: 0;
+}
+.pricing .blocks .inner ul li h1 span {
+    color: #fff;
+    font-size: 0.8em;
+}
+.pricing .blocks .inner ul li h1 strong {
+    color: #fff;
+    font-weight: 400;
+}
+.pricing .blocks .inner ul li h1 small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.4em;
+}
+.pricing .blocks .inner a.btn {
+    line-height: 5em;
+}
+#sidebar {
+    margin-top: 1em;
+}
+#sidebar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar ul li {
+    border-bottom: 1px solid #dce2e5;
+    list-style: none outside none;
+    margin: 0 0 2em;
+    padding: 0 0 1em;
+}
+#sidebar ul li h3 {
+    margin: 0 0 0.8em;
+}
+@media screen and (max-width: 50em) {
+body {
+}
+.container {
+    max-width: 100%;
+    min-width: 100%;
+}
+#header {
+    padding: 1em;
+}
+#header h1 {
+    margin-left: 0.2em;
+}
+#menu {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    left: 1em;
+    position: absolute;
+    right: 3.8em;
+    text-shadow: none;
+    top: 0;
+}
+#menu ul {
+    margin: 0;
+}
+#menu li {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+#menu li a {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    clear: both;
+    color: #333 !important;
+    display: block;
+    float: none;
+    padding: 1em !important;
+}
+#menu ul li.current a {
+    background: none repeat scroll 0 0 #fff !important;
+    border: 0 none;
+    border-radius: 0;
+    clear: both;
+    color: #333 !important;
+    float: none;
+    padding: 1em !important;
+}
+h2.menulink {
+    border: 0 none;
+    display: inline;
+    float: right;
+    height: 30px;
+    margin: 0;
+    width: 30px;
+}
+h2.menulink a {
+    background: url("../images/menu_btn_background.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000px;
+    width: 30px;
+}
+.hero {
+    margin: 0 0 2em;
+    padding: 4em 1em;
+}
+.form-box {
+    margin: 0 1em;
+}
+.shadow {
+    display: none;
+}
+.strip {
+}
+.strip .inner {
+    padding: 1em;
+}
+.pricing .blocks {
+    padding: 1em;
+}
+.form-row label {
+    line-height: 1em;
+}
+.form-row label .glyph-item {
+    display: none;
+}
+.form-row .inner {
+    margin: 0;
+    text-align: left;
+}
+.intro {
+    padding: 1em;
+}
+.intro h1 {
+    font-size: 2em;
+}
+.intro h2 {
+    font-size: 1.2em;
+}
+#wrapper {
+    height: auto !important;
+}
+.padded {
+    padding: 1.5em;
+}
+.features {
+    padding-top: 3em;
+}
+}
+@media screen and (max-width: 45em) {
+body {
+}
+.container {
+    max-width: 100%;
+    min-width: 100%;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    width: 100%;
+}
+.inner {
+    margin: 0 0 1em;
+}
+#container_main {
+    margin: 0;
+}
+#container_sidebar {
+    clear: both;
+    float: none;
+    width: 100%;
+}
+#wrapper {
+}
+#header {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+}
+@media screen and (min-width: 50em) {
+#menu {
+    display: block !important;
+}
+}
+/**/
+
+html {
+    height: 100%;
+}
+body {
+    color: #777;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 100%;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    margin: 0 0 1em;
+    padding: 0;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    margin: 0 0 0.8em;
+}
+h2 {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    margin: 0 0 0.8em;
+}
+h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+h4 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+h5 {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+h6 {
+    font-size: 1em;
+    line-height: 1.2em;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    padding: 0 0 1em;
+}
+a {
+    color: #333;
+}
+a.btn, a.btn:visited {
+    background-color: #4bb2ec;
+    background-image: -moz-linear-gradient(center top , #4bb2ec, #168cce);
+    border: 1px solid #06507b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    line-height: 3em;
+    margin: 0 1em 0 0;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+a.btn:hover {
+    background: none repeat scroll 0 0 #168cce;
+}
+a.btn-secondary {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #fff !important;
+}
+a.btn-secondary:hover {
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+img {
+    border: 0 none;
+}
+.glyph-item {
+    color: #222;
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1;
+    width: 1.5em;
+}
+.mega {
+    font-size: 3.2em;
+}
+.container {
+    margin: 0 auto;
+    max-width: 81.25em;
+    min-width: 50em;
+}
+.inner {
+    margin: 0 2em 2em 0;
+}
+#wrapper {
+    background: none repeat fixed center top / 100% 100% #333;
+    color: #fff;
+    height: 100%;
+}
+.wrapper-flexi {
+    height: auto !important;
+}
+.wrapper-page {
+    height: auto !important;
+}
+.wrapper-page .hero {
+    padding: 1em 0 0.5em 1em;
+}
+.wrapper-page .hero h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.wrapper-page .hero h2 {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1.2em;
+    margin: 0.5em 0 0;
+    padding: 0;
+    text-align: left;
+}
+.row {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    float: left;
+}
+.span12 {
+    width: 100%;
+}
+.span11 {
+    width: 91.6667%;
+}
+.span10 {
+    width: 83.3333%;
+}
+.span9 {
+    width: 75%;
+}
+.span8 {
+    width: 66.6667%;
+}
+.span7 {
+    width: 58.3333%;
+}
+.span6 {
+    width: 50%;
+}
+.span5 {
+    width: 41.6667%;
+}
+.span4 {
+    width: 33.3333%;
+}
+.span3 {
+    width: 25%;
+}
+.span2 {
+    width: 16.6667%;
+}
+.span1 {
+    width: 8.33333%;
+}
+.clearfix {
+    clear: both;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+#content .inner {
+    padding: 2em 2em 1em 0;
+}
+.item-box {
+    float: left;
+    width: 45%;
+}
+.strip {
+    border-bottom: 1px solid #dce2e5;
+    padding-left: 1em;
+}
+.strip-alt {
+    background: none repeat scroll 0 0 #f6f8f9;
+}
+.strip .inner {
+    padding: 4em 2em 1em 0;
+}
+.highlight h2 {
+    font-size: 2.2em;
+}
+.highlight h4 {
+    color: #777;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+.highlight .inner-text {
+    padding: 8em 0 4em;
+}
+img.promoimg {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+}
+.features .inner {
+    text-align: center;
+}
+.features .inner .glyph-item {
+    font-size: 3em;
+}
+form {
+}
+form a {
+    text-decoration: none;
+}
+form a:hover {
+    text-decoration: underline;
+}
+.form-row {
+    margin-bottom: 1em;
+}
+.form-row input.text, .form-row textarea {
+    background: url("../images/form_background.png") repeat-x scroll left top #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #666;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 1em 4%;
+    width: 92%;
+}
+.form-row select {
+    font-size: 1em;
+    width: 100%;
+}
+.form-row input.btn {
+    background-color: #4bb2ec;
+    background-image: -moz-linear-gradient(center top , #4bb2ec, #168cce);
+    border: 1px solid #06507b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+}
+.form-row input.btn:hover, .form-row input.btn:focus {
+    background: none repeat scroll 0 0 #168cce;
+}
+.form-row label {
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 3em;
+}
+.form-row label .glyph-item {
+    margin: 0 0 0 0.5em;
+}
+.form-row .btn-extrawide {
+    margin-right: 1em;
+}
+.form-row .btn-extrawide {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.form-row .inner {
+    margin: 0 1em 0 0;
+    text-align: right;
+}
+#header {
+    padding: 1.2em 0 1.5em 1em;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+#header h1 {
+    float: left;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+#header h1 a {
+    color: #fff;
+}
+#menu {
+    display: inline;
+    float: right;
+    margin-right: 0.5em;
+}
+#menu ul {
+    list-style: none outside none;
+    margin: 0.7em 1em 0 0;
+    padding: 0;
+}
+#menu ul li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+}
+#menu ul li a {
+    font-size: 0.9em;
+    text-decoration: none;
+}
+#menu ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0.5em 1em;
+}
+#menu ul li a:hover {
+    color: #fff;
+}
+#menu ul li.current a {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+#menu ul li.current a:hover {
+    border-color: #fff;
+}
+h2.menulink {
+    display: none;
+}
+.hero {
+    display: none;
+    padding: 1em 3em 0;
+    text-align: center;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+.hero-narrrow {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.hero h1 {
+    font-size: 2.7em;
+    font-weight: 300;
+    margin: 0 0 0.5em;
+}
+.hero h2 {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero h1 a, .hero h2 a, .hero h3 a, .hero h4 a, .hero h5 a, .hero h6 a {
+    color: #fff;
+}
+.icons {
+    margin-top: 1em;
+    text-align: center;
+}
+.icons a .glyph-item {
+    color: #fff;
+    font-size: 2em;
+}
+.icons a:hover .glyph-item {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 2em;
+}
+.icons .glyph-item {
+    color: #fff;
+}
+.intro {
+    color: #fff;
+    margin: 4em 0 2em;
+    padding: 0;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+.intro h1 {
+    color: #fff;
+}
+.intro h1 span {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 0 0.3em 0.15em;
+}
+.intro h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+.intro-padded {
+}
+.featured img {
+    margin-bottom: -6px;
+}
+.subscribe {
+    background: url("../images/trans.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    margin: 2em 0 4em;
+    padding: 1em;
+    text-align: center;
+}
+.subscribe .form-row {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
+.subscribe .form-row input.text {
+    border: 0 none;
+    float: left;
+    margin: 0;
+    padding: 1em 5%;
+    width: 50%;
+}
+.subscribe .form-row .btn {
+    border: 0 none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    float: right;
+    margin: 0;
+    padding: 1.1em 5%;
+    width: 40%;
+}
+.form-box {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    color: #666;
+    display: none;
+    margin: 2em 0 0;
+    padding: 0;
+}
+.form-box .top {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    padding: 1.5em;
+}
+.form-box .top h1 {
+    color: #222;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.form-box .top h1 span {
+    font-weight: 400;
+}
+.form-box .top h2 {
+    color: #222;
+    font-weight: 400;
+    margin: 0 0 0.2em;
+    padding: 0;
+}
+.form-box .top h3 {
+    margin: 0;
+    padding: 0;
+}
+.form-box .top p {
+    margin: 0;
+    padding: 0;
+}
+.form-box .bottom {
+    background: none repeat scroll 0 0 #efefef;
+    padding: 1.5em;
+}
+.shadow {
+    background: url("../images/shadow.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    display: none;
+    height: 20px;
+}
+#footer {
+    color: #999;
+    padding: 3.5em 0 3em;
+    text-align: center;
+}
+#footer a .glyph-item {
+    color: #999;
+    font-size: 2em;
+}
+#footer a:hover .glyph-item {
+    color: #222;
+}
+.pricing {
+    text-align: center;
+}
+.pricing .blocks {
+    padding: 4em 4em 1em 6em;
+}
+.pricing .blocks .inner {
+    padding: 0;
+}
+.pricing .blocks .inner ul, .pricing .blocks .inner ul li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.pricing .blocks .inner ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #dce2e5 #dce2e5 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin-bottom: 1em;
+}
+.pricing .blocks .inner ul li {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    padding: 0.8em 0;
+}
+.pricing .blocks .inner ul li h2 {
+    margin: 0;
+    padding: 0;
+}
+.pricing .blocks .inner.primary ul li h2 {
+    font-weight: 400;
+    padding: 1em 0;
+}
+.pricing .blocks .inner.secondary {
+    margin-top: 2em;
+}
+.pricing .blocks .inner ul li.price {
+    background: none repeat scroll 0 0 #333;
+}
+.pricing .blocks .inner ul li h1 {
+    line-height: 1em;
+    margin: 0.2em 0 0;
+    padding: 0;
+}
+.pricing .blocks .inner ul li h1 span {
+    color: #fff;
+    font-size: 0.8em;
+}
+.pricing .blocks .inner ul li h1 strong {
+    color: #fff;
+    font-weight: 400;
+}
+.pricing .blocks .inner ul li h1 small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.4em;
+}
+.pricing .blocks .inner a.btn {
+    line-height: 5em;
+}
+#sidebar {
+    margin-top: 1em;
+}
+#sidebar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar ul li {
+    border-bottom: 1px solid #dce2e5;
+    list-style: none outside none;
+    margin: 0 0 2em;
+    padding: 0 0 1em;
+}
+#sidebar ul li h3 {
+    margin: 0 0 0.8em;
+}
+@media screen and (max-width: 50em) {
+body {
+}
+.container {
+    max-width: 100%;
+    min-width: 100%;
+}
+#header {
+    padding: 1em;
+}
+#header h1 {
+    margin-left: 0.2em;
+}
+#menu {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    left: 1em;
+    position: absolute;
+    right: 3.8em;
+    text-shadow: none;
+    top: 0;
+}
+#menu ul {
+    margin: 0;
+}
+#menu li {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+#menu li a {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dce2e5;
+    clear: both;
+    color: #333 !important;
+    display: block;
+    float: none;
+    padding: 1em !important;
+}
+#menu ul li.current a {
+    background: none repeat scroll 0 0 #fff !important;
+    border: 0 none;
+    border-radius: 0;
+    clear: both;
+    color: #333 !important;
+    float: none;
+    padding: 1em !important;
+}
+h2.menulink {
+    border: 0 none;
+    display: inline;
+    float: right;
+    height: 30px;
+    margin: 0;
+    width: 30px;
+}
+h2.menulink a {
+    background: url("../images/menu_btn_background.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000px;
+    width: 30px;
+}
+.hero {
+    margin: 0 0 2em;
+    padding: 4em 1em;
+}
+.form-box {
+    margin: 0 1em;
+}
+.shadow {
+    display: none;
+}
+.strip {
+}
+.strip .inner {
+    padding: 1em;
+}
+.pricing .blocks {
+    padding: 1em;
+}
+.form-row label {
+    line-height: 1em;
+}
+.form-row label .glyph-item {
+    display: none;
+}
+.form-row .inner {
+    margin: 0;
+    text-align: left;
+}
+.intro {
+    padding: 1em;
+}
+.intro h1 {
+    font-size: 2em;
+}
+.intro h2 {
+    font-size: 1.2em;
+}
+#wrapper {
+    height: auto !important;
+}
+.padded {
+    padding: 1.5em;
+}
+.features {
+    padding-top: 3em;
+}
+}
+@media screen and (max-width: 45em) {
+body {
+}
+.container {
+    max-width: 100%;
+    min-width: 100%;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    width: 100%;
+}
+.inner {
+    margin: 0 0 1em;
+}
+#container_main {
+    margin: 0;
+}
+#container_sidebar {
+    clear: both;
+    float: none;
+    width: 100%;
+}
+#wrapper {
+}
+#header {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+}
+@media screen and (min-width: 50em) {
+#menu {
+    display: block !important;
+}
+}
+95
+
+    line-height: 1; 
+
+96
+
+    color:#222
+
+97
+
+  } 
+
+98
+
+  
+
+99
+
+  .mega {
+
+100
+
+    font-size: 3.2em;
+
+101
+
+  } 
+
+102
+
+ 
+
+103
+
+/* Structure and containers */
+
+104
+
+  
+
+105
+
+  .container { 
+
+106
+
+    margin:0 auto;   
+
+107
+
+    min-width: 50em; /* 300px @ 16px */
+
+108
+
+    max-width: 81.250em; /* 1140px @ 16px */ 
+
+109
+
+  }  
+
+110
+
+  
+
+111
+
+  .inner {
+
+112
+
+    margin:0 2em 2em 0; 
+
+113
+
+  }    
+
+114
+
+  
+
+115
+
+  #wrapper { 
+
+116
+
+    background: #333 fixed top center;
+
+117
+
+    background-size: 100% 100%;
+
+118
+
+    height:100%;
+
+119
+
+    color:#fff; 
+
+120
+
+  }
+
+121
+
+  .wrapper-flexi {
+
+122
+
+    height: auto !important 
+
+123
+
+  }
+
+124
+
+  
+
+125
+
+  .wrapper-page {
+
+126
+
+    height: auto !important
+
+127
+
+  }
+
+128
+
+  
+
+129
+
+  .wrapper-page .hero {
+
+130
+
+    padding:1em 0 .5em 1em; 
+
+131
+
+  }
+
+132
+
+  
+
+133
+
+  .wrapper-page .hero h1 {
+
+134
+
+    text-align: left;
+
+135
+
+    padding:0;
+
+136
+
+    margin:0;
+
+137
+
+    font-size:4em
+
+138
+
+  }
+
+139
+
+  
+
+140
+
+  .wrapper-page .hero h2 {
+
+141
+
+    text-align: left;
+
+142
+
+    padding:0;
+
+143
+
+    margin:.5em 0 0;
+
+144
+
+    font-size:1.2em;
+
+145
+
+    color: rgba(255, 255, 255, 0.7) !important;
+
+146
+
+  }
+
+147
+
+    
+
+148
+
+  .row {
+
+149
+
+    clear:both;
+
+150
+
+      margin:0;
+
+151
+
+      padding:0;
+
+152
+
+  }  
+
+153
+
+  
+
+154
+
+  .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 { 
+
+155
+
+    float: left; 
+
+156
+
+  }
+

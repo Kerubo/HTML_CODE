@@ -1,0 +1,25 @@
+body{background-image:
+      url(../images/bre.png);
+           }
+#wrapper{
+    max-width: 1100px;
+    margin: 100px auto;
+    background-color: #FFF;
+    position: relative;
+    z-index: 90;
+}
+
+#header{
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font: inherit;
+    vertical-align: baseline;
+}
+.row {visibility: hidden;
+      display: block;
+      font-size: 0px;
+      content: " ";
+      clear: both;
+     
+      }

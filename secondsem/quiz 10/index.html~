@@ -1,0 +1,59 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+
+<head><link rel=" stylesheet"  type="text/css"   href="assets/css/main.css">
+<title>e botics</title>
+</head>
+
+
+
+<body>
+
+<div id="wrapper">
+
+<!--start:header-->
+<div id="header">
+  <h1>E-botics Kenya</h1>
+</div>
+<!--End header-->
+<!--Begin:wrapper-->
+
+<div id="nav">
+<ul>
+<li> <a href="#">Home</a></li>
+<li> <a href="#">About</a></li>
+ <li><a href="#">Team</a></li>
+  <li><a href="#">portfolio</a></li>
+ 
+<li>  <a href="#">contacts</a></li>
+</ul>
+</div>
+
+
+<!--Start:content-->
+<div id="Content">
+
+
+
+
+ 
+</div>
+
+<!--end:content-->
+
+
+
+</div>
+<!--End:wrapper-->
+
+
+
+
+
+</body>
+
+
+</html>	

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bosire Lucy Kerubo CV</title>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- wrapper:start -->
+<div id="wrapper">
+<!-- start:content -->
+<div id="content">
+
+<!-- start:highlight -->
+<div id="highlight"></div>
+<!-- end highlight -->
+
+<!-- start header -->
+<div id="header">
+
+<div id="head">
+<img src="assets/images/g.jpg" width="200" height="170">
+</div>
+<div id="heade">
+<h
+<span>LUCY KERUBO</span><br>
+Frontend Developer
+</h2></div>
+
+<div id="nav">
+<ul>
+<li><a href="facebook.com"><img src="assets/images/facebook.png"  width="30" height="40"></a></li>
+
+<li><a href="gmail.com"></a><img src="assets/images/google.png" width="30" height="40"></li>
+<li><a href="linkedn.com"></a><img src="assets/images/google.png" width="30" height="40"></li>
+</ul>
+<br>
+<p>
+<a href="gmail.com">
+Email:lucykerubo763@gmail.com</a>
+Phone:0708219649
+Web:<a href='wordpress.com'>lucykerubo.wordpress.com</a></p>
+</div>
+</div>
+<hr>
+<!-- end header -->

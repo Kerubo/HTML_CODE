@@ -1,0 +1,143 @@
+body{backgroun:color:#FFF;}
+
+#wrapper{background-color:#F7EAF4;
+         max-width:1000px;height:1050px;
+         padding:01px 0 0 0;
+	margin-left:auto;
+         border-radius:20px;
+         border-color:black;
+         border-style:groove; 
+        }
+
+#header{background-color:#F466F9;
+        width:980px;
+        height:80px;
+       margin:auto;
+       margin-left:10px;
+       margin-top:15px;
+       border-radius:5px;}
+
+
+li {
+  text-align: center;
+ padding:3px;
+}
+
+
+li{display:block;}
+
+
+h1{font-size:24px;color:#000;text-align:center;}
+order-radius:9px;}
+         
+#one{background-color:black;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+#two{background-color:black;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px}
+         
+ #three{background-color:red;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+#four{background-color:black;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+#five{background-color:red;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}      
+         
+#six{background-color:green;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+  #seven{background-color:orange;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+ #eight{background-color:green;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;
+         border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+ #nine{background-color:orange;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;
+         
+         border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+         
+#ten{background-color:green;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;
+         border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+  li{color:white;}
+         
+#eleven{background-color:orange
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;} 
+ li:first-child{color:purple;text-indent:center;}
+ li:nth-child(odd){color:lightblue;}
+ li:nth-child(even){color: yellow;}
+ li:nth-child(1){color: purple;}
+ li:nth-child(4){color: maroon;}
+           
+#te{background-color:red;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;
+         border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;
+         background-image:url(ert.jpg); }
+         
+      #ty{background-color:green;
+         width:180px;height:180px;
+         float:left;
+         margin-top:20px;
+         border-radius:100px;
+         margin-left: 45px;
+         margin-bottom:20px;}
+  b{text-decoration: underline;}
+            
+         
+
+
+
+
+

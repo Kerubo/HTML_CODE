@@ -1,0 +1,101 @@
+<!Doctype html>
+<html>
+<head>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div id="wrapper">
+
+<!--start header-->
+<div id="header">
+<h1>GO MOBILE</h1>
+<nav>
+<ul>
+<li><a href="logo"></li>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</natmlv>
+
+</div>
+<!--end header-->
+
+<!--start content-->
+<div id="content">
+<div id="cont">
+
+<div id="a">
+<div id="as">
+<h2>About us</h2>
+<p><b>GM</b> is a mobile shop that
+ forcus mainly on phones, tablets 
+and mini computers such as
+ palmlets and laptops.</p>
+The list
+<ol>
+<li>Apple store</li><br>
+
+<li>Nokia</li><br>
+<li>Sumsung</li><br>
+<li>Techno</li><br>
+<li>LG</li>
+<li></li>
+</ol>
+</div>
+</div>
+<div id="b">
+<iframe width="618" height="480" src="//www.youtube.com/embed/K4ULEr6dWjo" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</div>
+<div id="tent">
+
+<div id="rad4"><img src="assets/images/bgf.png" height="200" width="200">
+</div>
+<div id="rad5">
+<ul><li>Nokia</li>
+<li>Sumsung</li>
+<li>Lg</li>
+<li>Techno</li></ul>
+</div>
+<div id="rad6"></div>
+</div>
+    
+</div>
+</div>
+</div>
+<!--end content-->
+
+<!--start footer-->
+<div id="footer"></div>
+<!--end footer-->
+</div>
+</body>
+<html>
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

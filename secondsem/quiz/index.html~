@@ -1,0 +1,48 @@
+<Doctype html>
+<html>
+<head>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--start wrapper-->
+<div id="wrapper">
+<!--start header-->
+<div id="header">
+<div id="title"><h1><strong><basefont size="+7" color="#008000">WELCOME TO OUR WORLD</basefont></font></strong></h1></div>
+<div id="nav">
+
+<nav>
+<ul>
+<li>
+<a href="index.html" >HOME</a></li>
+<li>
+<a href="index.html" >ABOUT</a></li>
+<li>
+<a href="index.html" >PORTFOLIO</a></li>
+<li>
+<a href="index.html" >CONTACTS</a></li>
+</ul>
+
+</nav></div>
+
+<div>
+<!--end header-->
+<!--start content-->
+<div id="content">
+<div id="cont"></div>
+
+<div id="tent">
+<div id="a"><img src="" id="../assets/images/lkl.jpg" onmouseover="this.src='';" onmouseout="this.src='';" /></div>
+<div id="b"></div>
+<div id="c"></div>
+</div>
+</div>
+<!--end content-->
+<!--start footer-->
+<div id="footer"></div>
+<!--end footer-->
+</div>
+
+<!--end wrapper-->
+</body>
+</html>

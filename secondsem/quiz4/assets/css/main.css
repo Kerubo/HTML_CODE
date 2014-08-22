@@ -1,0 +1,10 @@
+/*
+{background-color:#0B7F9F;}
+*/
+body{background-color:#966; }
+#wrapper{background-color: #FCC;width:1000px;
+         height:900px;
+         margin:auto;
+         padding:10px 0 0 0;}
+#header{padding:0;margin:auto;
+        width:1000px;height:80px;background-color:#B70FE5;}

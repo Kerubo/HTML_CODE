@@ -1,0 +1,110 @@
+<!Doctype html>
+<html>
+<head>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div id="wrapper">
+<!--start header-->
+<div id="header">
+<div id="images"><img src="assets/images/ll.jpg " ></div>
+<div id="nav">
+<nav>
+<ul>
+<li><a href="logo"></li>
+<li><a href="index">HOME</a></li>
+<li><a href="about">ABOUT</a></li>
+<li><a href="content">CONTACT</a></li>
+</ul>
+</nav></div>
+</div>
+<!--end header-->
+<!--start content-->
+<div id="content">
+
+<div id="b">
+<h2>LIFE IS ALL ABOUT CHOICES</h2>
+</div>
+
+<div id="c">
+<img src="assets/images/ki.jpg">
+</div>
+
+<div id="d">
+<div id="t">
+<h1>THE BASICS</h1>
+<p>
+    Easy-to-use, graphical data mapping interface
+    Instant<br>transformation
+    XSLT 1.0/2.0 and XQuery code generate<br>
+    Java, C#, and C++ code generation
+    Advanced data  <br>
+    Support for all major relational databases include<br> IBM DB2, Oracle, and more
+    Integration Altova <br> report rendering
+    Visual Studio & Eclipse <br>
+    Available in 32-bit and 64-bit versions
+
+Download <br>
+
+Easy-to-use, graphical data mapping interface
+    Instant<br>transformation
+    XSLT 1.0/2.0 and XQuery code generate<br>
+    Java, C#, and C++ code generation
+    Advanced data  <br>
+    Support for all major relational databases include<br> IBM DB2, Oracle, and more
+    Integration Altova <br> report rendering
+    Visual Studio & Eclipse <br>
+    Available in 32-bit and 64-bit versions
+
+Download 
+
+</p>
+</div>
+
+<div id="r">
+<h2>For more Infomation</h2>
+<a href="sema">http:/www.w3school.co.ke</a><br><br>
+<a href="sem">http:/www.akirachix.org</a><br><br>
+<a href="sea">http:/www.ericodancer.com</a><br><br>
+<a href="ema">http:/www.afrikasionlus.co.ke</a><br><br>
+<a href="sma">http:/www.angeltalent.school</a><br><br>
+<a href="sa">http:/www.w3school.co.ke</a><br><br>
+<a href="sema">http:/www.w3school.co.ke</a><br><br>
+</div>
+</div>
+<div id="e">
+www.talent.school.com
+</div>
+
+</div>
+<!--end content-->
+<!--start footer-->
+</div>
+</body>
+<html>
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

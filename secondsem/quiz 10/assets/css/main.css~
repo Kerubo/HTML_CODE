@@ -1,0 +1,46 @@
+body{background-color:#fff;
+}
+
+#wrapper{width:1000px;
+         height:900px;
+         margin-top:20px;
+         margin:0 auto;
+		 background-color:#6cc
+		 ;}
+		 
+#header{background-color:#ccc;
+}
+
+h1{text-align:center;
+     font-family:"Curlz MT";
+      font-size:48px;color:#6cc;
+}
+
+#head{
+        margin: 0 auto;
+       
+        margin:40px auto;
+   ;
+     
+        float:left;}
+
+head ul li{text-outline:#000;
+          background-color:#545454;}
+
+head ul li{padding:0 20px;margin:auto;}
+
+li{display:inline;
+padding-left: 20px;}
+
+li a{text-decoration:none;font-size:16px;color:#000;
+     }
+
+
+
+
+
+
+
+
+{text-outline:#000;
+          background-color:000;}

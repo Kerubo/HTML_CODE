@@ -1,0 +1,16 @@
+body{background-color:#FFF;width:1000px;}
+
+
+#wrapper{width:920px;height:950px;background-color:#100pxCCC;
+        padding:0 auto;margin:auto;border-width:05px;border-type:solid;border-color:#006400;}
+
+#content{width:900px;height:950px;background-color:#8FBC8F	;
+        padding:0 auto;margin:;}
+
+
+nav{text-align:center;}
+
+a{text-decoration:none;margin:30px;font-size:16px;
+     font-family:Arial Black;}
+
+

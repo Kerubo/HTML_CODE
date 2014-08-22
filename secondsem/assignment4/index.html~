@@ -1,0 +1,87 @@
+<!Doctype html>
+<html>
+<head>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<link rel=" stylesheet"  type="text/css"   href="assets/css/normalize.css">
+
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+
+<!--start header-->
+<div id="header"><h1>
+<img src="assets/images/trt.jpg " width="50" height="50">
+GO MOBILE</h1>
+
+
+</div>
+
+
+<!--end header-->
+
+<!--start content-->
+<div id="content">
+<nav>
+<ul>
+
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+<div id="cont">
+
+<div id="a">
+<img src="assets/images/hj.jpg" height="480" width="300">
+</div>
+
+<div id="b">
+<div id="e">
+</div>
+<div id="f">
+<img src="assets/images/ghg.jpg" height="260" width="375">
+</div>
+<div id="g">
+</div>
+</div>
+
+</div>
+<div id="tent">
+</div>
+</div>
+<!--end content-->
+
+<!--start footer-->
+<div id="footer">
+<h3>www.go@mobile.org</h3>
+</div>
+<!--end footer-->
+</div>
+</body>
+<html>
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

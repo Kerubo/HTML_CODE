@@ -1,0 +1,203 @@
+body{background-image:
+      url(../images/bre.png);
+           }
+#wrapper{background-color: #FFF;
+        margin:40px auto;
+        max-width: 1080px;
+       min-height:  1800px;} 
+   /*THE content SECTION*/       
+ #content{border-bottom-color: #545454;
+           border-bottom-width: 100px;
+        margin:40px auto;
+        max-width: 1000px;
+        height: 1580px;} 
+                       
+  #highlight{background-color: orange;
+        margin:40px auto;
+        max-width: 1000px;
+        height: 8px;} 
+        
+    /*THE HEADER SECTION*/                           
+ #header{padding:10px 0 0 0;
+        margin:40px auto;
+        max-width: 1000px;
+        height: 200px;}
+         
+  
+ #head{padding:10px 0 0 0;
+ 	    
+        margin:30px auto;
+        max-width: 300px;
+        height: 170px;
+        float: left;}
+        
+ #nav{padding:10px 0 0 0;
+ 	    
+        margin:30px auto;
+        margin-left: 170px;
+        
+        max-width: 300px;
+        height: 170px;
+        float: left;}
+ li{display: inline;}
+ 
+ ul li img{background-color: #000;}
+
+ ul li{padding:0 1px;
+        margin:auto;}
+
+
+li a{text-decoration:none;
+    font-size:16px;
+   }
+              
+#heade{padding:10px 0 0 0;
+	
+        margin:30px auto;
+        max-width: 300px;
+        height: 170px;
+        float: left;} 
+        
+ 
+                     
+ img{float: left;
+     border-width:2px;
+     border-top-style:solid;
+     border-color:#000; 
+ margin-right: 40px;} 
+ 
+ h2{
+    padding: 40px 0 0 0;
+ 	margin-bottom: 10px;
+ 	text-align: center;
+  font-size: 18px;
+ line-height: 50px;  } 
+ 
+ 
+ #field{
+        margin:30px auto;
+        max-width: 200px;
+        
+        float: left;} 
+   /*THE PROFILE SECTION*/           
+ #profile{
+        margin:30px auto;
+       
+        max-width: 1000px;
+       }
+        
+
+  
+
+           
+#date{width: 200px;
+       height: 50px;
+       float: right;
+     
+     
+       
+background-color: #545454;}  
+
+ h5{padding: 3px 3px 3px 3px;
+ 	font: inherit;
+       font-color:#b1b1b1;}     
+         
+    /*THE TECHNICAL SECTION*/              
+ #technical{
+        margin:20px auto;
+        width: 1000px;
+        height: 500px;} 
+        
+        
+ #tech{
+        margin:10px auto;
+        margin-left: 10px;
+        width: 700px;
+        padding-left: 50px;
+        height: 500px;
+        float: left;}  
+        
+ #tech1{
+        margin:5px auto;
+        width: 700px;
+        
+        height: 150px;
+        float: left;} 
+         
+#tech2{
+        margin:5px auto;
+        width: 700px;
+       
+        height: 150px;
+        float: left;} 
+        
+#tech3{
+        margin:5px auto;
+        width: 700px;
+        
+        height: 150px;
+        float: left;} 
+         
+    /*THE education SECTION*/     
+ #education{
+        margin:30px auto;
+       
+        width: 1000px;
+        height: 100px;} 
+        
+  #wor7{
+        margin:5px auto;
+        margin-left: 65px;
+        width: 700px;
+        
+        height: 90px;
+        float: left;}
+            
+  #wor6{
+        margin:5px auto;
+        margin-left: 30px;
+        width: 700px;
+        
+        height: 90px;
+        float: left;}            
+   
+        
+    /*THE footer SECTION*/      
+#footer{background-color: #545454;
+        margin:40px auto;
+        max-width: 1000px;
+        height: 20px;}              
+ /*The Content of the html file*/  
+ P{
+ 	margin-bottom: 10px;
+ 	display: block;
+-webkit-margin-before: 2px;
+-webkit-margin-after: 2px;
+-webkit-margin-start: 2px;
+-webkit-margin-end: 0px;
+font: inherit;
+font-color:#444;
+
+ } 
+ ul, 
+	ol { 
+		margin-bottom: 20px;
+		list-style-position: inside; 
+	}
+	
+	ul ul, 
+	ul ol, 
+	ol ol, 
+	ol ul { 
+		margin-left: 30px; 
+		margin-bottom: 0; 
+	}
+	
+	li {}
+	
+	ul { list-style-type: disc; }
+	ol { list-style-type: decimal; }
+	ul.last,
+	ol.last { margin-bottom:0; }
+ h3{color: #b1b1b1;}                      
+                       
