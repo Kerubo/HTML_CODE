@@ -1,0 +1,38 @@
+body{background-image:url(../images/abstract_floral_red_design.jpg);}
+#wrapper{background-color:#666;
+         width:900px;
+		 margin-left:auto;
+		 margin-right:auto;border-width:55px;
+		 border-color:#6F6;border-style:groove;}
+.panel{width:40%;
+       float:left;}
+	   
+#toto{width:20%;background-image
+:url(../images/abstract_floral_red_design.jpg);
+font-size:14px;
+color:#300;font-size:18px;
+color:#0F9;border-width:10px;
+border-color:#F00;border-style:groove;}
+
+#mama{background-color:#FC9;
+width 50%;borde-width:15px;
+border-color:#F00;border-style:groove;}
+
+#papa{background-image:
+url(../images/abstract_floral_red_design.jpg)
+;bordr-width:15px;
+border-color:#F33;border-style:groove;}
+
+h1{background-#969;text-align:center;}
+
+em{font-family:"Times New Roman", Times, serif;
+color:#F0F;}
+
+h2{text-align:center;font-size:24px;color:#F0F;}
+h6{text-align:center;font-size:24px;color:#0FF;}
+
+p{font-size:18px;color:#0CF;}
+ol{font-size:18px;color:#00F;}
+
+h1{font-size:36px;color:#C0C;background-color:#FF0;}
+#{background-image:url(../images/asep.jpg);}

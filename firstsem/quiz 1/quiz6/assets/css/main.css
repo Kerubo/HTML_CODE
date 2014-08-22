@@ -1,0 +1,12 @@
+body{background-image:url(../../../quiz5/assets/images/swa.jpg); border-width:30px;border-style:groove;border-color:#C06;}
+#wrapper{;
+          width:900px;
+          margin: 0 auto;
+		  height:900px;}
+h1{text-align:center;font-size:36px;color:#906;}
+h2{text-align:center;font-size:36px;color:#36C;}
+.panel{width:50%;
+        float:left;}
+#red{text-align:center;font-size:large;color:#F0F;font-family:"Arial Black", Gadget, sans-serif;background-image:url(../../../quiz3/assets/images/namio.jpg);}
+
+#blue{background-image:background-image:url(../../../quiz3/assets/images/pattern.jpg);}

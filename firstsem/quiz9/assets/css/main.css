@@ -1,0 +1,38 @@
+body{background-color:#CC3;
+}
+
+#wrapper{width:1000px;
+         height:900px;
+         margin-top:20px;
+         margin:0 auto;
+		 background-color:#FFC
+		 ;}
+		 
+#header{background-color:#930;
+}
+
+h1{text-align:center;
+     font-family:"Curlz MT";
+      font-size:48px;color:#C93;
+}
+h2{text-align:center;Font:"Palatino Linotype", "Book Antiqua", Palatino, serif;color:#090;}
+h3{text-align:center;color:#F00;}
+h4{text-align:center;color:#0F0;}
+h5{text-align:center;}
+#list{background-color:#C93;
+	  width:1000px;
+	  height:50px;}
+li{
+	display:inline;
+    text-align:center;
+    font-size:36px;
+	margin-left:50px;
+}
+
+li a{color:#FC0;
+text-decoration:none;}
+
+.mother{float:left;
+       background-color:#FC6;}
+#gal{width:50%;}
+#boi{width:50%;}

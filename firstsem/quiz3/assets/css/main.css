@@ -1,0 +1,16 @@
+body{margin:2px;padding:2px;
+ background: url(../images/swee.jpg);
+}
+
+ul{font-size:24px;family:Times New Romans;weight:600;color:red;
+border-color:green;border-width:7px;border-style:solid;text-align:center}
+h{font-size:36px;family:castella;weight :medium;
+  color:blue;background-color:pink}
+p{font-size:42px;family:Times New Romans;weight:light;}
+p.html{border-width:5px;border-color:purple;border-style:solid;font-size:36px;color:blue;font-family:Georgia, "Times New Roman", Times, serif }
+
+
+
+
+
+
