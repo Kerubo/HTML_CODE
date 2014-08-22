@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Welcome to the Airachix Training Progam</title>
+	<link rel="shortcut icon" href="http://www.templatewireframes.com/demos/conversion/templates/images/favicon.ico" type="image/x-icon">
+
+	<link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.css" rel="stylesheet">  
+	<link href="assets/css/style-color-01.css" rel="stylesheet">    
+	<link rel="stylesheet" href="assets/css/simple-line-icons.css">
+	<link href="assets/Fonts/font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+	</head> 
+<body>
+
+<div id="wrapper">
+
+	<!-- Start Header -->
+	<div id="header">
+	
+		<div class="container">
+			<div class="row">
+				<div class="span">
+				
+					<h1><a href="#"><img src="assets/images/akirachix
+					.png" alt="Convert"></a></h1>
+					<h2 class="menulink"><a href="#">Menu</a></h2>
+					
+					<!-- Start Menu -->
+					<div id="menu">
+						<ul>  
+							<li><a href="index.html">Home</a></li> 
+							<li><a href="page.html">About</a></li> 
+							<li><a href="page.html">Blog</a></li> 
+							<li><a href="page.html">Events and programs</a></li> 							
+							<li class="current"><a href="page.html">contact us </a></li> 
+						</ul> 
+					</div> 
+					<!-- End Menu -->
+					
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
+		</div>
+	
+	</div>
+	<!-- End Header -->
+
+	<!-- Start Content -->
+
+		<div class="container">
+				 
+            <div class="row">
+	        	
+	        	<div class="span6">
+	        	
+	        		<div class="inner">
+	        		
+	        			<div style="margin-top: 186.9px; display: block;" class="hero">
+	        		
+	        			<h1>The birth of Akirachix</h1>
+						<h2>The Akirachix began as 12 young women meeting on a monthly basis to network 
+						and encourage each other in their prospective technology fields..</h2>
+						
+						<a href="#" class="btn btn-primary">Events</a> <a href="#" class="btn btn-secondary">Documentation</a>
+						
+						</div>
+
+	        			
+	        		</div>
+	        		
+	        	</div>
+	        	
+	        	<div class="span6">
+	        	
+	        		<div class="inner">
+	        		
+	        			<div style="margin-top: 72.4px; display: block;" class="form-box">
+	        			
+	        				<div class="top">
+		        			
+		        				<h2><span class="fa fa-pencil" aria-hidden="true"></span> Get in touch</h2>
+		        				<p>To reach us complete the form below.</p>
+		        				
+	        				</div>
+	        			
+	        				<div class="bottom">
+	        				
+								<form method="post" action="#" name="example"> 
+									
+									<div class="form-row">							 
+										<input id="user_name" placeholder="Your name" class="text login_input" name="user_name" required="" type="text">
+										<div class="clearfix"></div>
+									</div>
+									
+									<div class="form-row">			 
+										<input id="user_email" placeholder="Your email" class="text login_input" name="user_email" required="" type="email">
+										<div class="clearfix"></div>
+									</div>  
+									
+									<div class="form-row">							 
+										<textarea placeholder="Your message"></textarea>
+										<div class="clearfix"></div>
+									</div>
+									    								
+									<div class="form-row">					
+										<input name="register" value="Sign up now!" class="btn " data-loading-text="Loading..." type="submit">
+										<a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a>
+										<div class="clearfix"></div>
+									</div>  
+									
+								</form>
+								
+							</div> 
+	        			
+	        			</div>
+	        			<div style="display: block;" class="shadow"></div>
+	        			<div class="clearfix"></div>
+	        			
+	        		</div>
+	        		
+	        	</div>
+	        	
+            </div>  
+		
+		</div>
+	
+	<!-- End content -->	
+	
+	<div class="clearfix"></div> 
+	
+</div>
+
+<div class="strip features">
+
+	<div class="container">
+			 
+        <div class="row">
+	    	
+	    	<div class="span3">
+	    	
+	        	<div class="inner">
+	        	
+	        		<span class="fa fa-graduation-cap"</span>
+	    	
+		        	<h3>Training Program</h3>
+		        	
+		        	<p>The training program aims at giving these girls IT skills that would enable them to sustain
+		        	 themselves and their families and hopefully end the vicious cycle of poverty.</p>
+		        	
+		        </div>
+	    	
+	    	</div> 
+	    	
+	    	<div class="span3">
+	    	
+	        	<div class="inner">
+	        	
+	        		<img src="assets/images/como.png" height="40px"width="40px" alt="">
+	    	
+		        	<h3>Mentorship &amp; Networking</h3>
+		        	
+		        	<p>Mentorship sometimes goes hand in hand with the training program whereby there is
+		        	 group as well as individual mentorship specially for the trainees at Akirachix.  </p>
+		        	
+		        </div>
+	    	
+	    	</div> 
+	    	
+	    	<div class="span3">
+	    	
+	        	<div class="inner">
+	        	
+	        		<span class="glyph-item mega icon-users" aria-hidden="true"></span>
+	    	
+		        	<h3>mobile Garage</h3>
+		        	
+		        	<p>The Mobile Garage  seeks to promote technology among 
+		        	University Students. The focus is primarily 
+		        	on the neglected Universities in remote areas and in
+		        	 other counties other than Nairobi.</p>
+		        	
+		        </div>
+	    	
+	    	</div> 
+	    	
+	    	<div class="span3">
+	    	
+	        	<div class="inner">
+	        	
+	        		<span  class="fa fa-university"></span>
+	    	
+		        	<h3>High School   Outreach</h3>
+		        	
+		        	<p>This program was first implemented at Precious Blood 
+		        	Riruta and was a huge success. </p>
+		        	
+		        </div>
+	    	
+	    	</div> 
+
+	    	<div class="clearfix"></div>
+	    	        	
+	    </div>
+
+	</div>
+
+</div>
+
+<div class="strip highlight strip-alt">
+
+	<div class="container">
+			 
+        <div class="row"> 
+	    	
+	    	<div class="span6">
+	    	
+	        	<div class="inner inner-text">
+	        		    	
+		        	<h2>All About Women <span>and technology</span></h2>
+		        	
+		        	<h4>'Akira' is a Japanese word that means 'energy' and 'intelligence'.  </h4>
+		        	
+		        	<p>The biggest driving force to starting  Akirachix was the fact that they noticed a huge gap in 
+		        	the presence of women within the technology  workplace, school, and even at the iHub as it was 
+		        	starting up. The situation that aroused their interest even more was noticing that there were just 
+		        	a handful of women in the room during the launch of Nairobi’s innovation Hub. These ladies therefore
+		        	 decided to start a forum where women in the technology  industry could get to meet each other,
+		        	 share their stories and encourage other girls to take up careers that are technology  related.. </p>
+		        	
+		        </div>
+	    	
+	    	</div> 
+	    	
+	    	<div class="span6">
+	    	
+	        	<div class="inner">
+	        		    	
+		        	<img src="assets/images/see.jpg" alt="Desktop" class="promoimg">
+		        	
+		        </div>
+	    	
+	    	</div> 
+
+	    	<div class="clearfix"></div>
+	    	        	
+	    </div>
+
+	</div>
+
+</div>
+
+<div class="strip highlight">
+
+	<div class="container">
+			 
+        <div class="row"> 
+	    	
+	    	<div class="span6">
+	    	
+	        	<div class="inner">
+	        		    	
+		        	<img src="assets/images/sa.jpg" alt="Desktop" class="promoimg">
+		        	
+		        </div>
+	    	
+	    	</div> 
+	    	
+	    	<div class="span6">
+	    	
+	        	<div class="inner inner-text">
+	        		    	
+		        	<h2>The Milestones of<span>Akirachix</span></h2>
+		        	
+		        	<h4>Akirachix hopes to expand its training program to various parts of the country in the near future.
+
+ </h4>
+		        	
+		        	<p>It aims at increasing more women in technology industry but more 
+		        	so focuses on young girls from unstable background. 
+Apart from this they also aspire to have their own technology School and in line 
+
+with this they want to build a  school in honor of one of its alumni who perish
+ in a fire that consumed half of deep sea slum in December ,  2013 name was Maureen 
+ Chepkwony, she was passionate about children and her dream was to have a school to host 
+ all those who were unable to go to school.
+ 	
+		        </div>
+	    	
+	    	</div> 
+
+	    	<div class="clearfix"></div>
+	    	        	
+	    </div>
+
+	</div>
+
+</div>
+
+<div class="strip strip-alt pricing">
+
+	<div class="container"> 	    
+	    
+	    
+		<div class="row blocks">
+				    	
+			<div class="span4">
+			
+		    	<div class="inner secondary">		        	
+		    	
+		    		<ul>
+						<li><h2>Volunteer</h2></li>
+						<li class="price"><h1><span>infinite</span>   <strong>Period</strong><br><small>Department</small></h1></li>
+						<li>Training</li>
+						<li>Mobile Garage</li>
+						<li>High School Outreach</li>
+						<li>BootCamps</li>
+						<li>Mentorship and Networking</li>
+					</ul>
+					
+					<a href="#" class="btn">Join Now</a>
+		    	
+		    	</div>
+		    	
+		    </div>
+			
+			<div class="span4">
+			
+		    	<div class="inner primary">		        	
+		    	
+		    		<ul>
+						<li><h2>Membership</h2></li>
+						<li class="price"><h1><span>open</span>  <strong>to </strong><small> Public</small></h1></li>
+						<li>Web Designer</li>
+						<li>Business Developer</li>
+						<li>Graphic Designer</li>
+						<li>Mobile Developer</li>
+						<li>Programmer</li>
+					</ul>
+					
+					<a href="#" class="btn">Join now</a>
+		    	
+		    	</div>
+		    	
+		    </div>
+			
+			<div class="span4">
+			
+		    	<div class="inner secondary">		       	
+		    	
+		    		<ul>
+						<li><h2>Internship</h2></li>
+						<li class="price"><h1><span>Period </span><strong>one-six</strong><br><small> Months</small></h1></li>
+						<li>Trainer</li>
+						<li>Web/mobile Developement</li>
+						<li>Coding Languages</li>
+						<li>C & C++,PhP,Java,Html,Css and Javascript</li>
+						<li>Android Developer</li>
+					</ul>
+					
+					<a href="#" class="btn">Join now</a>
+		    	
+		    	</div>
+		    	
+		    </div>
+		    
+		    <div class="clearfix"></div>
+		    
+		</div>
+		
+	</div>
+
+</div> 
+
+<div class="clearfix"></div> 
+
+<div id="footer">
+
+	<p> 
+		<a href="#"><span class="fa fa-facebook"></span></a>
+		<a href="#"><span class="fa fa-linkedIn"></span></a>
+		<a href="#"><span class="fa fa-twitter"></span></a>
+		<a href="#"><span class="fa fa-youtube"></span></a>
+		<a href="#"><span class="fa fa-google-plus></span></a>
+		<a href="#"><span class="glyph-item mega icon-social-dribbble" aria-hidden="true"></span></a>
+	</p>
+   	
+	Copyright © 2014
+	
+	<div class="clearfix"></div>
+
+</div>
+
+<!--[if lte IE 7]><script src="js/icons-lte-ie7.js"></script><![endif]-->
+<script src="assetts/js/jquery.js"></script>
+<script src="assets/js/respond.js"></script>
+<script src="assets/js/scripts.js"></script> 
+		        		
+
+
+</body></html>
